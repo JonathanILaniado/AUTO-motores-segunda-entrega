@@ -26,3 +26,7 @@
     --bs-btn-active-border-color: #ff4747;
     --bs-btn-disabled-color: #ff4747;
 }
+footer{
+    background-color: aquamarine;
+    width: 100%;
+}
