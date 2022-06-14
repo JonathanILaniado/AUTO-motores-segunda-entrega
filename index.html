@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bootstrap demo</title>
+  <title>HOME</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
@@ -28,7 +28,7 @@
             <a class="nav-link active" aria-current="page" href="./index.html">HOME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">SOBRE NOSOTROS</a>
+            <a class="nav-link" href="./Sobre-nosotros.html">SOBRE NOSOTROS</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
@@ -36,33 +36,52 @@
               SERVICIOS
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Compra-Venta</a></li>
-              <li><a class="dropdown-item" href="#">Asesoramiento</a></li>
+              <li><a class="dropdown-item" href="./compra-venta.html">Compra-Venta</a></li>
+              <li><a class="dropdown-item" href="./Asesoramiento.html">Asesoramiento</a></li>
             </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link">CONTACTO</a>
           </li>
         </ul>
         <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
+          <input class="form-control me-2" type="search" placeholder="Buscar en la pagina" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
         </form>
       </div>
     </div>
   </nav>
   <main class="main">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+      <div class="carousel-item">
+          <img src="./img/porsche-cayenne.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item active carousel-item-start">
+          <img src="./img/peugeot-rcz-gw-2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item carousel-item-next carousel-item-start">
+          <img src="./img/fiat-500.jpg" class="d-block w-100" alt="...">
+      </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+      </button>
+  </div>
         
   </main>
-  <div class="container-fluid">
+  <div class="container-fluid sacarPadding">
     <footer class="d-flex flex-wrap justify-content-between ali gn-items-center my-4 border-top">
-      <div class="col-md-4 d-flex align-items-center">
+      <div class="col-md-4 d-flex align-items-center justify-content-between">
         <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
           <svg class="bi" width="30" height="24">
             <use xlink:href="#bootstrap"></use>
           </svg>
         </a>
-        <span class="mb-3 mb-md-0 text-muted">© 2022 AUTOMOTORES S.A.</span>
+        <span class="mb-3 mb-md-0 text-muted colorLetra">© 2022 AUTOMOTORES S.A.</span>
+        <a href="./contacto.html"><button class="botonContacto">CONTACTANOS</button></a>
       </div>
 
       <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
