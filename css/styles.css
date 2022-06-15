@@ -87,3 +87,7 @@ footer {
     font-weight: bold;
     font-size: 120%;
 }
+ul li svg{
+    height: 8vh;
+    width: 5vw;
+}
