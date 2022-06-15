@@ -83,3 +83,7 @@ footer {
    display: flex;
    justify-content: center;
 }
+.letragruesa{
+    font-weight: bold;
+    font-size: 120%;
+}
