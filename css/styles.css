@@ -96,9 +96,9 @@ ul li svg{
     margin-left: 12.5vw;
 }
 .grilla {  
-    background-color:rgb(255,0,0);opacity:0.6;
+    background-color:rgba(255, 0, 0, 0.355);
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1.3fr 0.7fr 0.7fr 1.3fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-auto-columns: 1fr;
     gap: 0px 0px;
@@ -121,7 +121,14 @@ ul li svg{
   .grilla h2{
     text-align: center;
     justify-content: center;
+    font-size: 3vh;
+    color: black;
+    font-style: oblique;
+    font-weight: bold;
   }
+.img-grid{
+    max-width: 15vw;
+}
 
   @media (max-width: 320px){
     .grilla {  display: grid;
